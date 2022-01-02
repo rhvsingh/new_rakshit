@@ -17,7 +17,6 @@
     --color-ann-text: #444444;
     --color-inner-date-sec: #959595;
     --divider-border-color: #e6e6e6;
-    
 }
 
 body {
@@ -40,7 +39,8 @@ a {
     flex-wrap: wrap;
     justify-content: space-between
 }
-.widthfull{
+
+.widthfull {
     width: 100%;
 }
 
@@ -60,17 +60,18 @@ a {
     z-index: -1
 }
 
-
-.date-span{
+.date-span {
     color: var(--color-date-span);
     font-size: 34px;
     line-height: 1;
     font-weight: 700;
 }
-.tail-of-dates{
+
+.tail-of-dates {
     color: var(--color-date-span);
 }
-.tail-month{
+
+.tail-month {
     color: var(--color-month);
     font-size: 16px;
     display: block;
@@ -78,10 +79,9 @@ a {
     text-transform: uppercase;
 }
 
-.inner-date-sec a{
+.inner-date-sec a {
     color: var(--color-inner-date-sec);
 }
-
 
 
 /* nav title start  */
@@ -488,6 +488,7 @@ input#find {
     }
 }
 
+
 /* #sublink-of-main{
     display: block;
 } */
@@ -810,60 +811,68 @@ input#find {
     padding-top: 35px
 }
 
-.rank-title-h3{
+.rank-title-h3 {
     font-size: 18px;
     margin-bottom: 10px;
 }
-.span-main-date{
+
+.span-main-date {
     margin: 0 20px 14px 0;
     border-bottom-width: 3px;
     border-bottom-style: solid;
     padding-bottom: 10px;
     border-color: var(--color-date-span);
 }
-.ranks-text{
 
-}
+.ranks-text {}
 
-.text-rank-a{
+.text-rank-a {
     color: var(--color-ann-text);
     font-size: 16px;
     font-weight: 600;
-    
 }
 
-.one-rank-main,.two-rank-main,.three-rank-main{
+.one-rank-main,
+.two-rank-main,
+.three-rank-main {
     flex-wrap: nowrap;
     margin-bottom: 20px;
 }
-.divider-text-rank{
+
+.divider-text-rank {
     border-bottom-width: 2px;
     border-color: var(--divider-border-color);
     border-bottom-style: solid;
     padding-bottom: 13px;
 }
-.rank-date-inner-s{
+
+.rank-date-inner-s {
     margin-bottom: 8px;
 }
-.news-text,.ann-text{
+
+.news-text,
+.ann-text {
     margin-bottom: 15px;
 }
 
-
-.div-center-allrank{
+.div-center-allrank {
     display: flex;
     justify-content: space-between;
 }
-.rank-btn-style{
-background: var(--text-color-1);
-padding: 0px 10px;
-border: none;
+
+.rank-btn-style {
+    background: var(--text-color-1);
+    padding: 0px 10px;
+    border: none;
 }
-.arrow{
+
+.arrow {
     font-size: 20px !important;
     font-weight: bolder !important;
     cursor: pointer;
 }
+
+
 /* ranking sec end  */
 
 
@@ -881,58 +890,64 @@ border: none;
     color: #163269
 }
 
-.upcom-link{
+.upcom-link {
     font-size: 19px;
     margin-bottom: 14px;
     font-weight: 700;
     line-height: 1.2;
 }
-.flex{
+
+.flex {
     flex: 2 1 0;
 }
 
-.upcom-link a{
+.upcom-link a {
     color: var(--color-h3);
 }
 
-.up-main-text{
+.up-main-text {
     margin: 0 5% 0 0;
 }
 
-.adjester{
+.adjester {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
 }
 
-.tail-date-main{
+.tail-date-main {
     font-size: 13px;
     flex-direction: column;
 }
-.internal-date-sec{
+
+.internal-date-sec {
     margin-bottom: 2px;
 }
-.faclock-alt{
+
+.faclock-alt {
     margin-right: 10px;
 }
-.fa-clock-o{
+
+.fa-clock-o {
     color: var(--color-date-span);
 }
-.up-sec-div{
+
+.up-sec-div {
     padding-bottom: 25px;
 }
-.up-mar{
+
+.up-mar {
     margin-bottom: 10px;
 }
-.title-up-even{
+
+.title-up-even {
     margin-bottom: 30px;
     padding-top: 20px;
     margin-top: 8px;
     font-size: 14px;
-    
 }
-.title-up-even a{
+
+.title-up-even a {
     color: var(--other-color-1);
 }
 
@@ -940,9 +955,9 @@ border: none;
 /* upworks section end  */
 
 
-
 /* tweet section  */
-.links-of-all-link-div a{
+
+.links-of-all-link-div a {
     font-size: 14px;
     letter-spacing: 1px;
     color: #475c87;
@@ -954,11 +969,11 @@ border: none;
     font-weight: 700;
 }
 
+
 /* tweet end  */
 
 
 /* slider start of sick  */
-
 
 .slick-slider {
     position: relative;
@@ -977,10 +992,8 @@ border: none;
 
 .slick-list {
     position: relative;
-
     display: block;
     overflow: hidden;
-
 }
 
 .slick-list:focus {
@@ -1009,7 +1022,6 @@ border: none;
 .slick-track:before,
 .slick-track:after {
     display: table;
-
     content: '';
 }
 
@@ -1024,7 +1036,6 @@ border: none;
 .slick-slide {
     display: none;
     float: left;
-
     min-height: 1px;
 }
 
@@ -1043,12 +1054,14 @@ border: none;
 .slick-slide.dragging img {
     pointer-events: none;
 }
-.slick-initialized{
-width: 23%;
-height: 196px;
-display: block;
-position: absolute;
+
+.slick-initialized {
+    width: 425px;
+    height: 196px;
+    display: block;
+    position: absolute;
 }
+
 .slick-initialized .slick-slide {
     display: block;
 }
@@ -1082,8 +1095,8 @@ position: absolute;
 }
 
 
-
 /* slider slice end  */
+
 
 /*  */
 

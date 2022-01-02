@@ -8,37 +8,36 @@
     <title>Rakshit Bhaiya</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="css/style.css">
     <style>
         #home-vision {
-            padding: 40px 0 40px 0;
+            padding: 40px 20px;
             background-color: white;
             /* Required for smooth transition between tabs */
         }
-
+        
         #img-vision-id {
             background-image: url("https://www.nitk.ac.in/design-system/About-images/lighthouse.jpg");
         }
-
+        
         #img-mission-id {
             background-image: url("https://www.nitk.ac.in/design-system/About-images/placement.jpg");
         }
-
+        
         #img-history-id {
             background-image: url("https://www.nitk.ac.in/design-system/About-images/MB.jpg");
         }
-
+        
         #tab-main-vison-id {
             background: #EFEFEF;
             width: auto;
             height: 370px;
             padding: 25px;
         }
-
+        
         #home-vision-tab_data {
             text-transform: none;
             color: #000000;
@@ -47,7 +46,7 @@
             width: auto;
             overflow-y: scroll;
         }
-
+        
         #home-vision-head-tab .tab-title-div {
             background: white;
             padding: 15px 45px;
@@ -55,24 +54,42 @@
             cursor: pointer;
             color: var(--text-color-5)
         }
-
+        
         #home-vision-head-tab .tab-title-active {
             background: #EFEFEF;
             color: var(--text-color-4);
         }
-
+        
         #home-vision-tab_data::-webkit-scrollbar {
             width: 6px;
         }
-
+        
         #home-vision-tab_data::-webkit-scrollbar-thumb {
             background-color: rgb(190, 190, 190);
         }
-
+        
+        #vision-tab-img {
+            position: relative;
+        }
+        
+        #vision-tab-img .play-icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 20;
+            border-radius: 50%;
+            color: var(--other-color-1);
+            font-size: 2em;
+            padding: 25px 23px;
+            text-indent: 10px;
+            background-color: var(--text-color-1);
+        }
+        
         .tweet-header {
             margin-bottom: 3em;
         }
-
+        
         .tweet-head {
             font-size: 22px;
             font-weight: 700;
@@ -82,13 +99,13 @@
             letter-spacing: 0.4px;
             padding-left: 20px;
         }
-
+        
         #chart {
             margin: 0 5px;
             width: 100%;
             height: 100%;
         }
-
+        
         #chart,
         .chart-box {
             padding: 10px;
@@ -96,7 +113,7 @@
             border: 1px solid #ddd;
             box-shadow: 0 22px 35px -16px rgba(0, 0, 0, 0.1);
         }
-
+        
         select.flat-select {
             -moz-appearance: none;
             -webkit-appearance: none;
@@ -123,34 +140,34 @@
             -o-transition: 0.3s ease all;
             transition: 0.3s ease all;
         }
-
+        
         select.flat-select:focus,
         select.flat-select:hover {
             border: 0;
             outline: 0;
         }
-
+        
         .apexcharts-canvas {
             margin: 0 auto;
         }
-
+        
         #html {
             display: none;
         }
-
+        
         .tweet-stats {
             justify-content: center;
             margin: 2em auto;
         }
-
+        
         .tweet-stats>div:first-child {
             flex: 1 1 0;
         }
-
+        
         .tweet-stats>div:last-child {
             flex: 2 1 0;
         }
-
+        
         #upcoming_events .flex-box {
             flex-wrap: nowrap;
             justify-content: center;
@@ -167,8 +184,7 @@
                 <div class="main-nav-inner">
                     <div class="title-nav-left">
                         <i class="fa fa-language flan" id="i_983a_0"></i><a class="notranslate" id="translate">हिंदी</a>
-                        <i class="fa fa-envelope-open-o fenv" id="i_983a_1"></i><a class="notranslate"
-                            href="mailto:registrar@nitk.ac.in">registrar@nitk.ac.in</a>
+                        <i class="fa fa-envelope-open-o fenv" id="i_983a_1"></i><a class="notranslate" href="mailto:registrar@nitk.ac.in">registrar@nitk.ac.in</a>
                         <i class="fa fa-phone fpho" id="i_983a_1"></i> 0824 247 4000
                     </div>
                     <div class="title-nav-right">
@@ -178,23 +194,19 @@
                                     Webmail
                                 </a>
                                 <ul class="sub-menu tail-head">
-                                    <li class="title-nav-item nav-arow li-style only-this-li link-over-main"
-                                        style="background: #EEEEEE !important">
+                                    <li class="title-nav-item nav-arow li-style only-this-li link-over-main" style="background: #EEEEEE !important">
                                         <a class="title-a" href="#">@nitk.ac.in</a>
                                         <ul class="sub-menu link-over">
-                                            <li class="title-nav-item li-style-2 only-this-li"
-                                                style="background: #dedede !important">
+                                            <li class="title-nav-item li-style-2 only-this-li" style="background: #dedede !important">
                                                 <a href="http://staffmail.nitk.ac.in/" target="_blank">Staff Mail</a>
                                             </li>
-                                            <li class="title-nav-item li-style-2"
-                                                style="background: #dedede !important">
+                                            <li class="title-nav-item li-style-2" style="background: #dedede !important">
                                                 <a href="https://www.mail.nitk.ac.in/" target="_blank">IRIS Mailer</a>
                                             </li>
                                         </ul>
                                     </li>
                                     <li class="title-nav-item li-style" style="background: #EEEEEE !important">
-                                        <a class="title-a-edu"
-                                            href="https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;ltmpl=default&amp;hd=nitk.edu.in&amp;service=mail&amp;sacu=1&amp;rip=1&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin"
+                                        <a class="title-a-edu" href="https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;ltmpl=default&amp;hd=nitk.edu.in&amp;service=mail&amp;sacu=1&amp;rip=1&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin"
                                             target="_blank">@nitk.edu.in</a>
                                     </li>
                                 </ul>
@@ -210,8 +222,7 @@
                                 </a>
                             </li>
                             <li class="title-nav-item btn-donate-sup">
-                                <a class="title-a support-link" href="https://iris.nitk.ac.in/donate" target="_blank"
-                                    style="position: initial !important; margin-left: 7px !important;">
+                                <a class="title-a support-link" href="https://iris.nitk.ac.in/donate" target="_blank" style="position: initial !important; margin-left: 7px !important;">
                                     Support NITK
                                 </a>
                             </li>
@@ -432,9 +443,7 @@
                     <div class="main-slide-sec">
                         <div class="inner-slide-div">
                             <div class="i-slide-main" id="div_1dd7_5">
-                                <div class="side-i-img"><img
-                                        src="https://www.nitk.ac.in/design-system/upload/icon-2.png" alt="" width="44"
-                                        height="40" title="icon-2"></div>
+                                <div class="side-i-img"><img src="https://www.nitk.ac.in/design-system/upload/icon-2.png" alt="" width="44" height="40" title="icon-2"></div>
                                 <div class="slide-i-main">
                                     <div class="slide-i-div">
                                         <h3 class="slide-h3">Academics</h3>
@@ -451,9 +460,7 @@
                     <div class="main-slide-sec">
                         <div class="inner-slide-div">
                             <div class="i-slide-main" id="div_1dd7_5">
-                                <div class="side-i-img"><img
-                                        src="https://www.nitk.ac.in/design-system/upload/icon-4.png" alt="" width="44"
-                                        height="40" title="icon-4"></div>
+                                <div class="side-i-img"><img src="https://www.nitk.ac.in/design-system/upload/icon-4.png" alt="" width="44" height="40" title="icon-4"></div>
                                 <div class="slide-i-main">
                                     <div class="slide-i-div">
                                         <h3 class="slide-h3">Research</h3>
@@ -471,9 +478,7 @@
                     <div class="main-slide-sec">
                         <div class="inner-slide-div">
                             <div class="i-slide-main" id="div_1dd7_5">
-                                <div class="side-i-img"><img
-                                        src="https://www.nitk.ac.in/design-system/upload/icon-1.png" alt="" width="44"
-                                        height="40" title="icon-"></div>
+                                <div class="side-i-img"><img src="https://www.nitk.ac.in/design-system/upload/icon-1.png" alt="" width="44" height="40" title="icon-"></div>
                                 <div class="slide-i-main">
                                     <div class="slide-i-div">
                                         <h3 class=" slide-h3">Campus</h3>
@@ -491,9 +496,7 @@
                     <div class="main-slide-sec">
                         <div class="inner-slide-div">
                             <div class="i-slide-main" id="div_1dd7_5">
-                                <div class="side-i-img"><img
-                                        src="https://www.nitk.ac.in/design-system/upload/icon-3.png" alt="" width="44"
-                                        height="40" title="icon-3"></div>
+                                <div class="side-i-img"><img src="https://www.nitk.ac.in/design-system/upload/icon-3.png" alt="" width="44" height="40" title="icon-3"></div>
                                 <div class="slide-i-main">
                                     <div class="slide-i-div">
                                         <h3 class=" slide-h3">Culture</h3>
@@ -528,7 +531,7 @@
                                 <div class="one-rank-main flex-box">
                                     <span class="span-main-date gdlr-core-type-start-date-month">
                                         <span class="date-span">10</span>
-                                        <span class="tail-month">Rank</span>
+                                    <span class="tail-month">Rank</span>
                                     </span>
                                     <div class="ranks-text widthfull">
                                         <h3 class="rank-title-h3">
@@ -546,7 +549,7 @@
 
                                     <span class="span-main-date gdlr-core-type-start-date-month">
                                         <span class="date-span">32</span>
-                                        <span class="tail-month">Rank</span>
+                                    <span class="tail-month">Rank</span>
                                     </span>
                                     <div class="ranks-text widthfull">
                                         <h3 class="rank-title-h3">
@@ -562,7 +565,7 @@
                                 <div class="three-rank-main flex-box">
                                     <span class="span-main-date gdlr-core-type-start-date-month">
                                         <span class="date-span">63</span>
-                                        <span class="tail-month">Rank</span>
+                                    <span class="tail-month">Rank</span>
                                     </span>
                                     <div class="ranks-text widthfull">
                                         <h3 class="rank-title-h3">
@@ -606,9 +609,7 @@
                                     </div>
                                     <h3 class="text-rank-a" style="font-weight: 600">
                                         <i class="fa fa-thumb-tack" style="color:#50bd77"></i>
-                                        <a class="rank-sec-hover text-rank-a"
-                                            href="https://www.nitk.ac.in/nitk-faculty-researchers-in-stanford-university-list-of-top-2-scientist"
-                                            target="_self">
+                                        <a class="rank-sec-hover text-rank-a" href="https://www.nitk.ac.in/nitk-faculty-researchers-in-stanford-university-list-of-top-2-scientist" target="_self">
                                             NITK Faculty Researchers in Stanford University List of Top 2%
                                             Scientist
                                         </a>
@@ -625,9 +626,7 @@
                                     </div>
                                     <h3 class="text-rank-a" style="font-weight: 600">
                                         <i class="fa fa-thumb-tack" style="color:#50bd77"></i>
-                                        <a class="rank-sec-hover text-rank-a"
-                                            href="https://www.nitk.ac.in/doctor-of-science-for-sri-suhas-yathiraj--an-interview-with-hi"
-                                            target="_self">
+                                        <a class="rank-sec-hover text-rank-a" href="https://www.nitk.ac.in/doctor-of-science-for-sri-suhas-yathiraj--an-interview-with-hi" target="_self">
                                             Doctor of Science for Sri Suhas Yathiraj &amp; an interview with him
                                         </a>
                                     </h3>
@@ -635,8 +634,7 @@
                                 <!-- do not touch or expand this start here -->
                                 <div style="height: 196px">
                                     <div class="gdlr-core-item-list-wrap news-slider" style="display: none">
-                                        <div
-                                            class="gdlr-core-item-list gdlr-core-blog-widget gdlr-core-item-mglr clearfix gdlr-core-style-small">
+                                        <div class="gdlr-core-item-list gdlr-core-blog-widget gdlr-core-item-mglr clearfix gdlr-core-style-small">
                                             <div class="news-text">
                                                 <div class="rank-date-inner-s">
                                                     <span class="inner-date-sec">
@@ -647,9 +645,7 @@
                                                     </span>
                                                 </div>
                                                 <h3 class="text-rank-a" style="font-weight: 600">
-                                                    <a class="rank-sec-hover text-rank-a"
-                                                        href="https://www.nitk.ac.in/serb-srg-grant-is-sanctioned-to-dr-lakshmi-vellanki-chemistry-dept"
-                                                        target="_self">
+                                                    <a class="rank-sec-hover text-rank-a" href="https://www.nitk.ac.in/serb-srg-grant-is-sanctioned-to-dr-lakshmi-vellanki-chemistry-dept" target="_self">
                                                         SERB-SRG grant is sanctioned to Dr. Lakshmi Vellanki,
                                                         Chemistry
                                                         dept.
@@ -666,9 +662,7 @@
                                                     </span>
                                                 </div>
                                                 <h3 class="text-rank-a" style="font-weight: 600">
-                                                    <a class="rank-sec-hover text-rank-a"
-                                                        href="https://www.nitk.ac.in/dr-palanisamy-t-authored-a-book-sustainable-practices-and-innovation"
-                                                        target="_self">
+                                                    <a class="rank-sec-hover text-rank-a" href="https://www.nitk.ac.in/dr-palanisamy-t-authored-a-book-sustainable-practices-and-innovation" target="_self">
                                                         Dr PALANISAMY T authored a book "Sustainable Practices
                                                         and
                                                         Innovation.."
@@ -676,8 +670,7 @@
                                                 </h3>
                                             </div>
                                         </div>
-                                        <div
-                                            class="gdlr-core-item-list gdlr-core-blog-widget gdlr-core-item-mglr clearfix gdlr-core-style-small">
+                                        <div class="gdlr-core-item-list gdlr-core-blog-widget gdlr-core-item-mglr clearfix gdlr-core-style-small">
                                             <div class="news-text">
                                                 <div class="rank-date-inner-s">
                                                     <span class="inner-date-sec">
@@ -688,9 +681,7 @@
                                                     </span>
                                                 </div>
                                                 <h3 class="text-rank-a" style="font-weight: 600">
-                                                    <a class="rank-sec-hover text-rank-a"
-                                                        href="https://www.nitk.ac.in/central-research-facility-website-was-inaugurated-by-the-director-nitk"
-                                                        target="_self">
+                                                    <a class="rank-sec-hover text-rank-a" href="https://www.nitk.ac.in/central-research-facility-website-was-inaugurated-by-the-director-nitk" target="_self">
                                                         Central Research Facility website inaugurated by the
                                                         Director,
                                                         NITK
@@ -707,17 +698,14 @@
                                                     </span>
                                                 </div>
                                                 <h3 class="text-rank-a" style="font-weight: 600">
-                                                    <a class="rank-sec-hover text-rank-a"
-                                                        href="https://www.nitk.ac.in/sad-demise-of-chief-defence-staff-cds-general-bipin-rawat"
-                                                        target="_self">
+                                                    <a class="rank-sec-hover text-rank-a" href="https://www.nitk.ac.in/sad-demise-of-chief-defence-staff-cds-general-bipin-rawat" target="_self">
                                                         Sad demise of Chief Defence Staff (CDS) General Bipin
                                                         Rawat
                                                     </a>
                                                 </h3>
                                             </div>
                                         </div>
-                                        <div
-                                            class="gdlr-core-item-list gdlr-core-blog-widget gdlr-core-item-mglr clearfix gdlr-core-style-small">
+                                        <div class="gdlr-core-item-list gdlr-core-blog-widget gdlr-core-item-mglr clearfix gdlr-core-style-small">
                                             <div class="news-text">
                                                 <div class="rank-date-inner-s">
                                                     <span class="inner-date-sec">
@@ -728,9 +716,7 @@
                                                     </span>
                                                 </div>
                                                 <h3 class="text-rank-a" style="font-weight: 600">
-                                                    <a class="rank-sec-hover text-rank-a"
-                                                        href="https://www.nitk.ac.in/-kumaran-v-sajid-k-subba-rao-manu-havegot-best-paper-award"
-                                                        target="_self">
+                                                    <a class="rank-sec-hover text-rank-a" href="https://www.nitk.ac.in/-kumaran-v-sajid-k-subba-rao-manu-havegot-best-paper-award" target="_self">
                                                         Kumaran V, Sajid K, Subba Rao, Manu have got Best paper
                                                         award
                                                     </a>
@@ -746,9 +732,7 @@
                                                     </span>
                                                 </div>
                                                 <h3 class="text-rank-a" style="font-weight: 600">
-                                                    <a class="rank-sec-hover text-rank-a"
-                                                        href="https://www.nitk.ac.in/-sreelakshmy-madhusoodhanan-and-subba-rao-have--best-paper-award"
-                                                        target="_self">
+                                                    <a class="rank-sec-hover text-rank-a" href="https://www.nitk.ac.in/-sreelakshmy-madhusoodhanan-and-subba-rao-have--best-paper-award" target="_self">
                                                         Sreelakshmy Madhusoodhanan and Subba Rao have got Best
                                                         paper
                                                         award
@@ -756,8 +740,7 @@
                                                 </h3>
                                             </div>
                                         </div>
-                                        <div
-                                            class="gdlr-core-item-list gdlr-core-blog-widget gdlr-core-item-mglr clearfix gdlr-core-style-small">
+                                        <div class="gdlr-core-item-list gdlr-core-blog-widget gdlr-core-item-mglr clearfix gdlr-core-style-small">
                                             <div class="news-text">
                                                 <div class="rank-date-inner-s">
                                                     <span class="inner-date-sec">
@@ -768,9 +751,7 @@
                                                     </span>
                                                 </div>
                                                 <h3 class="text-rank-a" style="font-weight: 600">
-                                                    <a class="rank-sec-hover text-rank-a"
-                                                        href="https://www.nitk.ac.in/core-research-grant-award-ed-to-dr-beneesh--p-b"
-                                                        target="_self">
+                                                    <a class="rank-sec-hover text-rank-a" href="https://www.nitk.ac.in/core-research-grant-award-ed-to-dr-beneesh--p-b" target="_self">
                                                         Core Research grant award ed to Dr. Beneesh P B
                                                     </a>
                                                 </h3>
@@ -785,17 +766,14 @@
                                                     </span>
                                                 </div>
                                                 <h3 class="text-rank-a" style="font-weight: 600">
-                                                    <a class="rank-sec-hover text-rank-a"
-                                                        href="https://www.nitk.ac.in/dr-sreevalsa-kolathayar-authored-a-book-disaster-risk-reduction"
-                                                        target="_self">
+                                                    <a class="rank-sec-hover text-rank-a" href="https://www.nitk.ac.in/dr-sreevalsa-kolathayar-authored-a-book-disaster-risk-reduction" target="_self">
                                                         Dr. Sreevalsa Kolathayar authored a book 'Disaster Risk
                                                         Reduction'
                                                     </a>
                                                 </h3>
                                             </div>
                                         </div>
-                                        <div
-                                            class="gdlr-core-item-list gdlr-core-blog-widget gdlr-core-item-mglr clearfix gdlr-core-style-small">
+                                        <div class="gdlr-core-item-list gdlr-core-blog-widget gdlr-core-item-mglr clearfix gdlr-core-style-small">
                                             <div class="news-text">
                                                 <div class="rank-date-inner-s">
                                                     <span class="inner-date-sec">
@@ -806,9 +784,7 @@
                                                     </span>
                                                 </div>
                                                 <h3 class="text-rank-a" style="font-weight: 600">
-                                                    <a class="rank-sec-hover text-rank-a"
-                                                        href="https://www.nitk.ac.in/Dr Sreevalsa Kolathayar contributed two chapters"
-                                                        target="_self">
+                                                    <a class="rank-sec-hover text-rank-a" href="https://www.nitk.ac.in/Dr Sreevalsa Kolathayar contributed two chapters" target="_self">
                                                         Dr. Sreevalsa Kolathayar contributed two chapters
                                                     </a>
                                                 </h3>
@@ -823,9 +799,7 @@
                                                     </span>
                                                 </div>
                                                 <h3 class="text-rank-a" style="font-weight: 600">
-                                                    <a class="rank-sec-hover text-rank-a"
-                                                        href="https://www.nitk.ac.in/core-esearch-grant-award-ed-to-dr-vijayendra-s-shetti"
-                                                        target="_self">
+                                                    <a class="rank-sec-hover text-rank-a" href="https://www.nitk.ac.in/core-esearch-grant-award-ed-to-dr-vijayendra-s-shetti" target="_self">
                                                         Core Research grant award ed to Dr. Vijayendra S. Shetti
                                                     </a>
                                                 </h3>
@@ -834,7 +808,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
 
@@ -845,12 +819,10 @@
                             <i class="fa fa-long-arrow-right"></i>
                         </a>
                         <div class="" style="text-align: right;">
-                            <button type="button" class="rank-btn-style slick-arrow prev-news"
-                                style="display: inline-block;">
+                            <button type="button" class="rank-btn-style slick-arrow prev-news" style="display: inline-block;">
                                 <i class="fa fa-angle-left arrow"></i>
                             </button>
-                            <button type="button" class="rank-btn-style slick-arrow next-news"
-                                style="display: inline-block;">
+                            <button type="button" class="rank-btn-style slick-arrow next-news" style="display: inline-block;">
                                 <i class="fa fa-angle-right arrow"></i>
                             </button>
                         </div>
@@ -878,8 +850,7 @@
                                     </div>
                                     <h3 class="text-rank-a " style="font-weight: 600">
                                         <i class="fa fa-thumb-tack" style="color:#50bd77"></i>
-                                        <a class="rank-sec-hover text-rank-a"
-                                            href="/ATTENTION-FIRST YEAR B.TECH STUDENTS AY-2021-22" target="_self">
+                                        <a class="rank-sec-hover text-rank-a" href="/ATTENTION-FIRST YEAR B.TECH STUDENTS AY-2021-22" target="_self">
                                             ATTENTION-FIRST YEAR B.TECH STUDENTS AY-2021-22
                                         </a>
                                     </h3>
@@ -896,8 +867,7 @@
                                     </div>
                                     <h3 class="text-rank-a" style="font-weight: 600">
                                         <i class="fa fa-thumb-tack" style="color:#50bd77"></i>
-                                        <a class="rank-sec-hover text-rank-a"
-                                            href="/academicresearch-activities-for-pg--phd" target="_self">
+                                        <a class="rank-sec-hover text-rank-a" href="/academicresearch-activities-for-pg--phd" target="_self">
                                             Academic/research activities for PG &amp; PhD students in the
                                             even semester
                                         </a>
@@ -905,8 +875,7 @@
                                 </div>
                                 <div style="height: 196px;">
                                     <div class="gdlr-core-item-list-wrap announce-slider" style="display: none">
-                                        <div class="gdlr-core-item-list gdlr-core-blog-widget gdlr-core-item-mglr clearfix gdlr-core-style-small"
-                                            data-slick-index="-1" aria-hidden="true" tabindex="-1" style="width: 251px;">
+                                        <div class="gdlr-core-item-list gdlr-core-blog-widget gdlr-core-item-mglr clearfix gdlr-core-style-small" data-slick-index="-1" aria-hidden="true" tabindex="-1" style="width: 251px;">
                                             <div class="gdlr-core-blog-widget-content">
                                                 <div class="rank-date-inner-s">
                                                     <span class="inner-date-sec">
@@ -916,17 +885,14 @@
                                                     </span>
                                                 </div>
                                                 <h3 class="text-rank-a" style="font-weight: 600">
-                                                    <a class="rank-sec-hover text-rank-a"
-                                                        href="/call-for-phd-application-for-the-year-2019-20-december-session"
-                                                        target="_self" tabindex="-1">
+                                                    <a class="rank-sec-hover text-rank-a" href="/call-for-phd-application-for-the-year-2019-20-december-session" target="_self" tabindex="-1">
                                                         Call for PhD Application for the year 2019-20 (December
                                                         Session)
                                                     </a>
                                                 </h3>
                                             </div>
                                         </div>
-                                        <div class="gdlr-core-item-list gdlr-core-blog-widget gdlr-core-item-mglr clearfix gdlr-core-style-small"
-                                            data-slick-index="0" aria-hidden="true" tabindex="-1" style="width: 251px;">
+                                        <div class="gdlr-core-item-list gdlr-core-blog-widget gdlr-core-item-mglr clearfix gdlr-core-style-small" data-slick-index="0" aria-hidden="true" tabindex="-1" style="width: 251px;">
                                             <div class="gdlr-core-blog-widget-content">
                                                 <div class="rank-date-inner-s">
                                                     <span class="inner-date-sec">
@@ -936,9 +902,7 @@
                                                     </span>
                                                 </div>
                                                 <h3 class="text-rank-a" style="font-weight: 600">
-                                                    <a class="rank-sec-hover text-rank-a"
-                                                        href="/Important Notification dated 28.12.2021" target="_self"
-                                                        tabindex="-1">
+                                                    <a class="rank-sec-hover text-rank-a" href="/Important Notification dated 28.12.2021" target="_self" tabindex="-1">
                                                         Important Notification dated 28.12.2021
                                                     </a>
                                                 </h3>
@@ -952,17 +916,14 @@
                                                     </span>
                                                 </div>
                                                 <h3 class="text-rank-a" style="font-weight: 600">
-                                                    <a class="rank-sec-hover text-rank-a"
-                                                        href="/Advertisement for Senior Research Fellow in Department of WROE"
-                                                        target="_self" tabindex="-1">
+                                                    <a class="rank-sec-hover text-rank-a" href="/Advertisement for Senior Research Fellow in Department of WROE" target="_self" tabindex="-1">
                                                         Advertisement for Senior Research Fellow (SRF) in
                                                         Department of WROE
                                                     </a>
                                                 </h3>
                                             </div>
                                         </div>
-                                        <div class="gdlr-core-item-list gdlr-core-blog-widget gdlr-core-item-mglr clearfix gdlr-core-style-small"
-                                            data-slick-index="1" aria-hidden="true" tabindex="-1" style="width: 251px;">
+                                        <div class="gdlr-core-item-list gdlr-core-blog-widget gdlr-core-item-mglr clearfix gdlr-core-style-small" data-slick-index="1" aria-hidden="true" tabindex="-1" style="width: 251px;">
                                             <div class="gdlr-core-blog-widget-content">
                                                 <div class="rank-date-inner-s">
                                                     <span class="inner-date-sec">
@@ -972,9 +933,7 @@
                                                     </span>
                                                 </div>
                                                 <h3 class="text-rank-a" style="font-weight: 600">
-                                                    <a class="rank-sec-hover text-rank-a"
-                                                        href="/extension-of-last-for-applying-jrf--in-ec-deptadvt-dt-6th-dec-21-"
-                                                        target="_self" tabindex="-1">
+                                                    <a class="rank-sec-hover text-rank-a" href="/extension-of-last-for-applying-jrf--in-ec-deptadvt-dt-6th-dec-21-" target="_self" tabindex="-1">
                                                         Extension of Last for applying JRF in E&amp;C
                                                         Dept.(Advt. dt. 6th Dec' 21)
                                                     </a>
@@ -989,17 +948,14 @@
                                                     </span>
                                                 </div>
                                                 <h3 class="text-rank-a" style="font-weight: 600">
-                                                    <a class="rank-sec-hover text-rank-a"
-                                                        href="/procedure-for-obtaining-official-transcripts-and-all-certificates"
-                                                        target="_self" tabindex="-1">
+                                                    <a class="rank-sec-hover text-rank-a" href="/procedure-for-obtaining-official-transcripts-and-all-certificates" target="_self" tabindex="-1">
                                                         Procedure for Obtaining Official Transcripts and All
                                                         Certificates
                                                     </a>
                                                 </h3>
                                             </div>
                                         </div>
-                                        <div class="gdlr-core-item-list gdlr-core-blog-widget gdlr-core-item-mglr clearfix gdlr-core-style-small"
-                                            data-slick-index="2" aria-hidden="true" tabindex="-1" style="width: 251px;">
+                                        <div class="gdlr-core-item-list gdlr-core-blog-widget gdlr-core-item-mglr clearfix gdlr-core-style-small" data-slick-index="2" aria-hidden="true" tabindex="-1" style="width: 251px;">
                                             <div class="gdlr-core-blog-widget-content">
                                                 <div class="rank-date-inner-s">
                                                     <span class="inner-date-sec">
@@ -1009,9 +965,7 @@
                                                     </span>
                                                 </div>
                                                 <h3 class="text-rank-a" style="font-weight: 600">
-                                                    <a class="rank-sec-hover text-rank-a"
-                                                        href="/Project Associate Advertisement for SERB-SRG project in Chemistry"
-                                                        target="_self" tabindex="-1">
+                                                    <a class="rank-sec-hover text-rank-a" href="/Project Associate Advertisement for SERB-SRG project in Chemistry" target="_self" tabindex="-1">
                                                         Project Associate Advertisement for SERB-SRG project in
                                                         Chemistry
                                                     </a>
@@ -1026,17 +980,14 @@
                                                     </span>
                                                 </div>
                                                 <h3 class="text-rank-a" style="font-weight: 600">
-                                                    <a class="rank-sec-hover text-rank-a"
-                                                        href="/fee-payment-for-the--even-semester-2021-22-instructions-wrt-payment-"
-                                                        target="_self" tabindex="-1">
+                                                    <a class="rank-sec-hover text-rank-a" href="/fee-payment-for-the--even-semester-2021-22-instructions-wrt-payment-" target="_self" tabindex="-1">
                                                         FEE PAYMENT FOR THE EVEN SEMESTER 2021-22 (Instructions
                                                         w.r.t payment)
                                                     </a>
                                                 </h3>
                                             </div>
                                         </div>
-                                        <div class="gdlr-core-item-list gdlr-core-blog-widget gdlr-core-item-mglr clearfix gdlr-core-style-small"
-                                            data-slick-index="3" aria-hidden="true" tabindex="-1" style="width: 251px;">
+                                        <div class="gdlr-core-item-list gdlr-core-blog-widget gdlr-core-item-mglr clearfix gdlr-core-style-small" data-slick-index="3" aria-hidden="true" tabindex="-1" style="width: 251px;">
                                             <div class="gdlr-core-blog-widget-content">
                                                 <div class="rank-date-inner-s">
                                                     <span class="inner-date-sec">
@@ -1046,9 +997,7 @@
                                                     </span>
                                                 </div>
                                                 <h3 class="text-rank-a" style="font-weight: 600">
-                                                    <a class="rank-sec-hover text-rank-a"
-                                                        href="/jrf-advertisement-for-serb-crg-project-in-chemistry-1"
-                                                        target="_self" tabindex="-1">
+                                                    <a class="rank-sec-hover text-rank-a" href="/jrf-advertisement-for-serb-crg-project-in-chemistry-1" target="_self" tabindex="-1">
                                                         JRF advertisement for SERB-CRG project in Chemistry-1
                                                     </a>
                                                 </h3>
@@ -1062,9 +1011,7 @@
                                                     </span>
                                                 </div>
                                                 <h3 class="text-rank-a" style="font-weight: 600">
-                                                    <a class="rank-sec-hover text-rank-a"
-                                                        href="/jrf-advertisement-for-serb-core-project-in-chemistry-2"
-                                                        target="_self" tabindex="-1">
+                                                    <a class="rank-sec-hover text-rank-a" href="/jrf-advertisement-for-serb-core-project-in-chemistry-2" target="_self" tabindex="-1">
                                                         JRF Advertisement for SERB-CORE Project in Chemistry-2
                                                     </a>
                                                 </h3>
@@ -1076,9 +1023,9 @@
 
                             <!------------------------------------------------------- do not touch  -->
 
-                            
 
-                           
+
+
                         </div>
                         <!------------------------------------------------------- do no touch  -->
 
@@ -1089,12 +1036,10 @@
                             <i class="fa fa-long-arrow-right"></i>
                         </a>
                         <div class="" style="text-align: right;">
-                            <button type="button" class="rank-btn-style slick-arrow prev-announcements"
-                                style="display: inline-block;">
+                            <button type="button" class="rank-btn-style slick-arrow prev-announcements" style="display: inline-block;">
                                 <i class="fa fa-angle-left arrow"></i>
                             </button>
-                            <button type="button" class="rank-btn-style slick-arrow next-announcements"
-                                style="display: inline-block;">
+                            <button type="button" class="rank-btn-style slick-arrow next-announcements" style="display: inline-block;">
                                 <i class="fa fa-angle-right arrow"></i>
                             </button>
                         </div>
@@ -1122,7 +1067,7 @@
                             <div>
                                 <span class="flex-box span-main-date adjester">
                                     <span class="date-span">01</span>
-                                    <span class="tail-month">Jan</span>
+                                <span class="tail-month">Jan</span>
                                 </span>
                             </div>
                             <div class="up-main-text">
@@ -1136,7 +1081,7 @@
                                         <span class="faclock-alt">
                                             <i class="fa fa-clock-o" aria-hidden="true"></i>
                                         </span>
-                                        <span class="tail-of-dates">
+                                    <span class="tail-of-dates">
                                             Starts: 01/01/2022
                                         </span>
                                     </span>
@@ -1144,7 +1089,7 @@
                                         <span class="faclock-alt">
                                             <i class="fa fa-clock-o" aria-hidden="true"></i>
                                         </span>
-                                        <span class="tail-of-dates">
+                                    <span class="tail-of-dates">
                                             Ends: 10/01/2022
                                         </span>
                                     </span>
@@ -1155,7 +1100,7 @@
                             <div>
                                 <span class="flex-box span-main-date adjester">
                                     <span class="date-span">30</span>
-                                    <span class="tail-month">May</span>
+                                <span class="tail-month">May</span>
                                 </span>
                             </div>
                             <div class="up-main-text">
@@ -1170,7 +1115,7 @@
                                         <span class="faclock-alt">
                                             <i class="fa fa-clock-o" aria-hidden="true"></i>
                                         </span>
-                                        <span class="tail-of-dates">
+                                    <span class="tail-of-dates">
                                             Starts: 30/05/2022
                                         </span>
                                     </span>
@@ -1178,7 +1123,7 @@
                                         <span class="faclock-alt">
                                             <i class="fa fa-clock-o" aria-hidden="true"></i>
                                         </span>
-                                        <span class="tail-of-dates">
+                                    <span class="tail-of-dates">
                                             Ends: 05/06/2022
                                         </span>
                                     </span>
@@ -1190,8 +1135,7 @@
                         <div class="up-mar flex-box flex">
                             <div>
 
-                                <span class=" flex-box span-main-date adjester"><span class="date-span">09</span><span
-                                        class="tail-month">Jun</span>
+                                <span class=" flex-box span-main-date adjester"><span class="date-span">09</span><span class="tail-month">Jun</span>
                                 </span>
 
                             </div>
@@ -1208,7 +1152,7 @@
                                         <span class="faclock-alt">
                                             <i class="fa fa-clock-o" aria-hidden="true"></i>
                                         </span>
-                                        <span class="tail-of-dates">
+                                    <span class="tail-of-dates">
                                             Starts: 09/06/2022
                                         </span>
                                     </span>
@@ -1216,7 +1160,7 @@
                                         <span class="faclock-alt">
                                             <i class="fa fa-clock-o" aria-hidden="true"></i>
                                         </span>
-                                        <span class="tail-of-dates">
+                                    <span class="tail-of-dates">
                                             Ends: 10/06/2022
                                         </span>
                                     </span>
@@ -1236,9 +1180,7 @@
                     <div class="divider-line-sec tweet-header">
                         <div class="divider-style tweet-head">NITK Tweets</div>
                     </div>
-                    <a class="twitter-timeline" data-width="100%" data-height="330" data-theme="light"
-                        data-chrome="nofooter noborders noheader"
-                        href="https://twitter.com/surathkal_nitk?ref_src=twsrc%5Etfw">Tweets by surathkal_nitk</a>
+                    <a class="twitter-timeline" data-width="100%" data-height="330" data-theme="light" data-chrome="nofooter noborders noheader" href="https://twitter.com/surathkal_nitk?ref_src=twsrc%5Etfw">Tweets by surathkal_nitk</a>
                     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                     <div class="">
                         <div class="links-of-all-link-div" style="padding-bottom: 0">
@@ -1277,7 +1219,7 @@
                     <div class="main-sec-img-switch" id="vision-tab-img" data-tab-id="1 ">
                         <a class="main-sec-gallery main-sec-js " href="https://www.youtube.com/watch?v=71jKkD5Ol8E ">
                             <span class="tab-img-bg" id="img-vision-id"></span>
-                            <i class="fa fa-play "></i>
+                            <i class="fa fa-play play-icon"></i>
                         </a>
                     </div>
                     <div class="main-sec-img-switch" id="mission-tab-img" data-tab-id="2 ">
@@ -1300,62 +1242,46 @@
                         <div class="main-data-item" data-tab-id="1" id="tab-main-vison-id">
                             <div class="">
                                 <div class="">
-                                    <h3 class="" id="h3_1dd7_32" style="font-size: 23px; ">Vision<span
-                                            class="title-item-divider title-item-divider-skin "></span>
+                                    <h3 class="" id="h3_1dd7_32" style="font-size: 23px; ">Vision<span class="title-item-divider title-item-divider-skin "></span>
                                     </h3>
                                 </div>
                             </div>
                             <div id="home-vision-tab_data">
-                                <p>To facilitate transformation of students into good human beings, responsible citizens
-                                    and competent professionals, focusing on the assimilation, generation and
-                                    dissemination of knowledge.
+                                <p>To facilitate transformation of students into good human beings, responsible citizens and competent professionals, focusing on the assimilation, generation and dissemination of knowledge.
                                 </p>
                             </div>
                         </div>
                         <div class="main-data-item" data-tab-id="2" id="tab-main-vison-id">
                             <div class="">
                                 <div class="">
-                                    <h3 class="" id="h3_1dd7_32" style="font-size: 23px; ">Mission<span
-                                            class="title-item-divider title-item-divider-skin "></span>
+                                    <h3 class="" id="h3_1dd7_32" style="font-size: 23px; ">Mission<span class="title-item-divider title-item-divider-skin "></span>
                                     </h3>
                                 </div>
                             </div>
                             <div id="home-vision-tab_data">
-                                <p>Impart quality education to meet the needs of profession and society, and achieve
-                                    excellence in teaching-learning and research.
+                                <p>Impart quality education to meet the needs of profession and society, and achieve excellence in teaching-learning and research.
                                 </p>
-                                <p>Attract and develop talented and committed human resources, and provide an
-                                    environment conducive to innovation, creativity, team-spirit and entrepreneurial
-                                    leadership.
+                                <p>Attract and develop talented and committed human resources, and provide an environment conducive to innovation, creativity, team-spirit and entrepreneurial leadership.
                                 </p>
-                                <p>Facilitate effective interactions among faculty and students, and foster networking
-                                    with alumni, industries, institutions and other stake-holders.
+                                <p>Facilitate effective interactions among faculty and students, and foster networking with alumni, industries, institutions and other stake-holders.
                                 </p>
-                                <p>Practice and promote high standards of professional ethics, transparency and
-                                    accountability.
+                                <p>Practice and promote high standards of professional ethics, transparency and accountability.
                                 </p>
                             </div>
                         </div>
                         <div class="main-data-item" data-tab-id="3" id="tab-main-vison-id">
                             <div class="">
                                 <div class=" ">
-                                    <h3 class="" id="h3_1dd7_32" style="font-size: 23px; ">History<span
-                                            class="title-item-divider title-item-divider-skin "></span>
+                                    <h3 class="" id="h3_1dd7_32" style="font-size: 23px; ">History<span class="title-item-divider title-item-divider-skin "></span>
                                     </h3>
                                 </div>
                             </div>
                             <div id="home-vision-tab_data">
-                                <p>National Institute of Technology Karnataka, Surathkal is located in Mangalore City,
-                                    Karnataka State, India. The Institute was established as Karnataka Regional
-                                    Engineering College (KREC) in 1960, and upgraded as National
+                                <p>National Institute of Technology Karnataka, Surathkal is located in Mangalore City, Karnataka State, India. The Institute was established as Karnataka Regional Engineering College (KREC) in 1960, and upgraded as National
                                     Institute of Technology Karnataka (NITK) in 2002.
                                 </p>
-                                <p>Mangalore is the headquarters of the coastal district of Dakshina Kannada, and boasts
-                                    an important centre of education, business and trade in the state. Sri. U. Srinivasa
-                                    Mallya, a visionary and a philanthropist, contributed
-                                    immensely to the development of the coastal region of Karnataka, and his effort
-                                    towards establishment of KREC (now NITK) is the most significant one. In recognition
-                                    of his role as the founder and architect of the institute,
+                                <p>Mangalore is the headquarters of the coastal district of Dakshina Kannada, and boasts an important centre of education, business and trade in the state. Sri. U. Srinivasa Mallya, a visionary and a philanthropist, contributed
+                                    immensely to the development of the coastal region of Karnataka, and his effort towards establishment of KREC (now NITK) is the most significant one. In recognition of his role as the founder and architect of the institute,
                                     the campus premises is named after him as Srinivasnagar.
                                 </p>
                             </div>
@@ -1395,8 +1321,7 @@
                                 <li class="menu-item "><a target="_blank " href="# ">Guest House (GH)</a></li>
                                 <li class="menu-item "><a target="_blank " href="# ">Health Care Centre (HCC)</a></li>
                                 <li class="menu-item "><a target="_blank " href="# ">Library</a></li>
-                                <li class="menu-item "><a target="_blank " href="# "
-                                        title="Science & Technology Entrepreneurs ' Park">STEP</a></li>
+                                <li class="menu-item "><a target="_blank " href="# " title="Science & Technology Entrepreneurs ' Park">STEP</a></li>
                                 <li class="menu-item"><a target="_blank" href="#">Virtual Tour</a></li>
                             </ul>
                         </div>
